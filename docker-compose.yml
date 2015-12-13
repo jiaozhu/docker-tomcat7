@@ -1,5 +1,6 @@
 tomcat7:
-    build: .
+    image:
+        myidet/tomcat:7
     ports:
         - "8080:8080"
     hostname:
