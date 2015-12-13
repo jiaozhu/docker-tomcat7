@@ -1,0 +1,8 @@
+tomcat7:
+    build: .
+    ports:
+        - "8080:8080"
+    hostname:
+        tomcat7
+    privileged:
+        true
